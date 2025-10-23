@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Unified Application Configuration
+=======
+>>>>>>> origin
 application:
   name: DevOpsSimulator
   version: 2.0.0-beta
@@ -13,6 +16,7 @@ server:
 logging:
   level: DEBUG
   format: json
+<<<<<<< HEAD
   output: /var/log/app.log
   show_stack_trace: true
 
@@ -36,3 +40,13 @@ notifications:
   slack_webhook: "https://hooks.slack.com/services/XXX"
   discord_webhook: "https://discord.com/api/webhooks/YYY"
   email_alerts: false
+=======
+  
+# Development configuration (enabled via environment variable)
+development:
+  enabled: false
+  port: 3000
+  hot_reload: false
+  debug_mode: false
+  mock_apis: false
+>>>>>>> origin
