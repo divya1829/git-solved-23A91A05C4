@@ -1,16 +1,22 @@
+<<<<<<< HEAD
+=======
+# Unified Application Configuration
+>>>>>>> a2be6ba (merge: Resolve all conflicts between main and dev branches)
 application:
   name: DevOpsSimulator
-  version: 1.0.0
-  environment: production
-  
+  version: 2.0.0-beta
+  environment: development / production
+
 server:
   host: 0.0.0.0
   port: 8080
   ssl_enabled: true
-  
+  hot_reload: true
+
 logging:
-  level: INFO
+  level: DEBUG
   format: json
+<<<<<<< HEAD
   
 # Development configuration (enabled via environment variable)
 development:
@@ -19,3 +25,28 @@ development:
   hot_reload: false
   debug_mode: false
   mock_apis: false
+=======
+  output: /var/log/app.log
+  show_stack_trace: true
+
+database:
+  host: prod-db.example.com
+  port: 5432
+  name: devops_prod
+
+features:
+  auto_scaling: true
+  load_balancer: enabled
+  backup_enabled: true
+  experimental_features: true
+
+development:
+  mock_external_apis: true
+  debug_mode: true
+  cors_enabled: true
+
+notifications:
+  slack_webhook: "https://hooks.slack.com/services/XXX"
+  discord_webhook: "https://discord.com/api/webhooks/YYY"
+  email_alerts: false
+>>>>>>> a2be6ba (merge: Resolve all conflicts between main and dev branches)
