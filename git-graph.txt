@@ -1,0 +1,29 @@
+* 44ca920 (HEAD -> main, origin/main, origin/HEAD) docs: Add changelog
+* c04b51f docs: Added my Git Journey documentation
+* 26bf18a (tag: v1.1.0, tag: v1.0.0) docs: Update README
+* 7ff1480 feat: Add test feature
+* 0aed6f4 feat: Add new feature
+* 2da028c docs: Add FAQ section
+| * b77381e (origin/feature/another-feature, feature/another-feature) merge: Resolve all conflicts between main and dev branches
+| * 222f604 Add files via upload
+| * aaa5292 Add files via upload
+| | * c68127d (origin/feature/new-feature, feature/new-feature) feat: Add new feature
+| |/  
+|/|   
+* |   6c17c22 updating dev
+|\ \  
+| * | ce8f8c1 Add files via upload
+| * | 3d2ad00 Add files via upload
+| |/  
+| *   a97806b merge: Resolve all conflicts between main and dev branches
+| |\  
+| | * 02011a5 (instructor/dev, dev) updating dev
+* | | a2be6ba merge: Resolve all conflicts between main and dev branches
+* | | f781ef5 Add files via upload
+|/ /  
+* | 0312c6f (instructor/main, instructor/HEAD) updating main
+* | fadfd24 Revise README for DevOps Simulator project
+|/  
+| * d3dd9b2 (instructor/conflict-simulator, conflict-simulator) updating conflict-simulator
+|/  
+* ae630eb Initial commit
